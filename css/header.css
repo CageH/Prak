@@ -1,27 +1,42 @@
 html{
     overflow-x: hidden;
     font-family: RobotoSlab-Regular;
+    height: 100%;
 }
 
+.form-control-range{
+    height: 622px; 
+}
 
-.header{
-    background:url(../images/Banner_bg_line.png) ;
-     background-position: top center;
-  background-attachment: fixed;
-  
-    min-height: 750px;  
-  position: relative;
-  -webkit-background-size: cover;
-  background-size: cover;
+#header-background{
+    background:url(../images//Banner_bg_line_622.png);
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.header-background_300{
+    background:url(../images//Banner_bg_line_300.png);
+    background-repeat: no-repeat;
+    background-position:top;
 }
 
 .plogo{
-    width: 226px;
+    /*width: 226px;*/
     height: 113px;
-    text-align: center;
+    text-align: center!important;
     float: left;
     margin-top: 13px;
-   
+}
+
+.search{
+    background: url(../images/ico_search.svg);
+    position: absolute;
+    border: none;
+    right: 16px;
+    top: 23px;
+    height: 18px;
+    width: 18px;
+    background-repeat: no-repeat;
 }
 
 .searcher input[type=text]{
@@ -32,6 +47,7 @@ html{
     margin-top: 21px;
     padding: 0 165px 0 0;
     display: inline-flex;
+    position: relative;
 }
 
 body{
@@ -39,6 +55,8 @@ body{
     background-color: rgb(255, 255, 255);
     font-family: RobotoSlab-Regular;
 }
+
+
 
 .h_size{
     font-size: 18px;
@@ -55,6 +73,11 @@ body{
     text-decoration: none;
     padding-right: 8px;
 
+}
+
+.ex:hover{
+    transition: 1s;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -79,5 +102,13 @@ a:hover {
     border-radius: 0%;
     font-size: 16px;
     padding:15px 30px 15px 30px;
-    
+}
+
+.shadow_head{
+    box-shadow: -1px 0px 20px 0px rgba(0,0,0,0.34);
+    position: relative;
+}
+
+.img_1{
+    position:absolute;
 }
