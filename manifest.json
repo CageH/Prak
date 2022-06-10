@@ -1,15 +1,15 @@
 {
   "background_color": "#ffffff",
-  "description": "",
   "dir": "ltr",
   "display": "standalone",
-  "name": "Cageh",
+  "name": "cageh.github",
   "orientation": "any",
   "scope": "/",
-  "short_name": "Landing",
+  "short_name": "cageh.github",
   "start_url": "https://cageh.github.io/Prak/",
   "theme_color": "#ffffff",
-  "categories": [],
-  "screenshots": [],
-  "shortcuts": []
+  "icons" : [{
+    "src" : "[PWA/512x512.png]",
+    "size" : "512x512"
+  }]
 }
