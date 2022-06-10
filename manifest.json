@@ -2,14 +2,15 @@
   "background_color": "#ffffff",
   "dir": "ltr",
   "display": "standalone",
-  "name": "cageh.github",
+  "name": "Landing",
   "orientation": "any",
   "scope": "/",
-  "short_name": "cageh.github",
+  "short_name": "Tomato",
   "start_url": "https://cageh.github.io/Prak/",
   "theme_color": "#ffffff",
   "icons" : [{
     "src" : "[PWA/512x512.png]",
-    "size" : "512x512"
+    "size" : "512x512",
+    "type": "image/png"
   }]
 }
