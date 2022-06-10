@@ -1,0 +1,15 @@
+{
+  "background_color": "#ffffff",
+  "description": "",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Cageh",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Landing",
+  "start_url": "https://cageh.github.io/Prak/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "shortcuts": []
+}
